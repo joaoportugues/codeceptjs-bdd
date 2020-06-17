@@ -2,13 +2,16 @@ const { I } = inject();
 
 module.exports = {
 	elements : {
-		title: ('UI Testing','a'),
-		welcomeMsg: ('Welcome to the Docler Holding QA Department', 'h1'),
-		subHeader: ('This site is dedicated to perform some exercises and demonstrate automated web testing.', 'h2'),
 		home: 'Home',
 		//Or home: '//*[@id="home"]',
+		aciveTab: '//li[contains(@class, "active") and ./a/text()="Name"]',
 		form: 'Form',
 		error: 'Error',
+		title: ('UI Testing','a'),
+		welcomeMsg: ('Welcome to the Docler Holding QA Department', 'h1'),
+		subHeader: ('This site is dedicated to perform some exercises and \
+		demonstrate automated web testing.', 'p'),
+		logo: '//*[@id="dh_logo"]',
 	},
 
 	//Methods
@@ -25,12 +28,12 @@ module.exports = {
 
 	//Actions
 	clickHome() {
-		I.click(this.elements.home)
+		I.click(this.elements.home);
 	}, 	
 	clickForm() {
-		I.click(this.elements.form)
+		I.click(this.elements.form);
 	},
 	clickError() {
-		I.click(this.elements.error)
+		I.click(this.elements.error);
 	}
 }
