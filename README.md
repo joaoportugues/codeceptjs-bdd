@@ -68,24 +68,3 @@ npx codeceptjs run --features
 ```
 
 You can run a specific feature file by its filename or by grepping by name or tag.
-
-
-
-Given('the user has browsed to the homepage', () => I.amOnPage ('/'));
-Then('user reads title {string}', (title) => {
-	landingPage.assertUiTesting();
-	landingPage.clickHome();
-	landingPage.clickForm();
-	formPage.assertTabActive();
-	formPage.writeName(name);
-});
-
-
-Given('the user has browsed to the homepage', () => I.amOnPage ('/'));
-When('user navigates to Error tab', () => {
-	landingPage.clickError();
-
-});
-Then('user reads title {string}', (title) => {
-
-});
