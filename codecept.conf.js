@@ -1,25 +1,32 @@
 exports.config = {
-  tests: './*_test.js',
   output: './output',
   helpers: {
     Puppeteer: {
-      url: 'http://localhost',
+      url: 'http://uitest.duodecadits.com',
       show: true,
       windowSize: '1200x900'
     }
   },
   include: {
-    I: './steps_file.js'
+    I: './steps_file.js',
+    Page: './pages/*.js'
   },
-  bootstrap: null,
   mocha: {},
-  name: 'codeceptjs-bdd',
+  bootstrap: null,
+  teardown: null,
+  hooks: [],
+  gherkin: {
+    features: './features/*.feature',
+    steps: ['./step_definitions/steps.js']
+  },
   plugins: {
-    retryFailedStep: {
-      enabled: true
-    },
     screenshotOnFail: {
       enabled: true
+    },
+    retryFailedStep: {
+      enabled: true
     }
-  }
+  },
+  tests: './*_test.js',
+  name: 'codeceptjs-bdd'
 }
