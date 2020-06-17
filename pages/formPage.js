@@ -1,4 +1,6 @@
 const { I } = inject();
+const assert = require('assert');
+
 
 module.exports = {
 	elements : {
@@ -18,10 +20,10 @@ module.exports = {
 	//Methods
 	//Read
 	readTitle(title) {
-		I.see(title);
+		I.see(this.elements.title);
 	},
 	readFormTitle(formTitle) {
-		I.see(formTitle);
+		I.see(this.elements.formTitle);
 	},
 
 	//Actions

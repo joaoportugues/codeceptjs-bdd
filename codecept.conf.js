@@ -5,7 +5,17 @@ exports.config = {
       url: 'http://uitest.duodecadits.com',
       show: true,
       windowSize: '1200x900'
-    }
+    },
+  "HTTP" : {
+       "require": "codeceptjs-http",
+       "endpoint": "http://localhost:8080"
+     },
+  "ResembleHelper" : {
+       "require": "codeceptjs-resemblehelper",
+       "screenshotFolder" : "./tests/output/",
+       "baseFolder": "./tests/screenshots/base/",
+       "diffFolder": "./tests/screenshots/diff/"
+     }
   },
   include: {
     I: './steps_file.js',
@@ -24,7 +34,7 @@ exports.config = {
       enabled: true
     },
     retryFailedStep: {
-      enabled: true
+      enabled: false
     }
   },
   tests: './*_test.js',
