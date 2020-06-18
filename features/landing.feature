@@ -32,7 +32,7 @@ Feature: website navigation and formats
       Then user sees "Home" button is active
       Then user sees company logo
 
-	@REQ-UI-01  @REQ-UI-02 @REQ-UI-03 @REQ-UI-04 @REQ-UI-05 @REQ-UI-06
+	@REQ-UI-01 @REQ-UI-02 @REQ-UI-03 @REQ-UI-04 @REQ-UI-05 @REQ-UI-06
     Scenario: check that user can navigate back to home
       When user navigates to "Form"
       Then user reads title "UI Testing Site"
@@ -43,10 +43,9 @@ Feature: website navigation and formats
       Then user sees "Home" button is active
       Then user sees company logo
       
-    @REQ-UI-01 @REQ-UI-02 @REQ-UI-07
+    @REQ-UI-07
     Scenario: check error page behavior
       When user navigates to "Error"
-      Then user reads title "UI Testing Site"
-      Then user sees "Form" button is active
-      Then user sees company logo
+      Then user gets "404" HTTP response code
+  
             

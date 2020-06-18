@@ -12,9 +12,9 @@ exports.config = {
      },
   "ResembleHelper" : {
        "require": "codeceptjs-resemblehelper",
-       "screenshotFolder" : "./tests/output/",
-       "baseFolder": "./tests/screenshots/base/",
-       "diffFolder": "./tests/screenshots/diff/"
+       "screenshotFolder" : "./screenshots/",
+       "baseFolder": "./screenshots/base/",
+       "diffFolder": "./screenshots/diff/"
      }
   },
   include: {

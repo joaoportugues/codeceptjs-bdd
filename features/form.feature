@@ -12,6 +12,8 @@ Feature: form functionalities
       Then user reads title "UI Testing Site"
       Then user sees "Form" button is active
       Then user sees company logo
+      Then user sees "1" element of type "input box"
+      Then user sees "1" element of type "SUBMIT"
       When user types "<value>" and click submit
       Then user has greeting "<result>"
       Then user reads title "UI Testing Site"

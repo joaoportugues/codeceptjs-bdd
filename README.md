@@ -16,10 +16,6 @@ npm install codeceptjs-resemblehelper --save
 ```
 
 ```sh
-npm install codeceptjs-http --save
-```
-
-```sh
 mkdir your_dir_name
 cd your_dir_name
 ```

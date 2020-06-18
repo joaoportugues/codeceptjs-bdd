@@ -1,8 +1,11 @@
 const { I } = inject();
 const assert = require('assert');
+const resemble = require("resemblejs");
 
-//this is a page fragment, just the main container
 module.exports = {
+	elements: {
+		logo: '//*[@id="dh_logo"]',
+	},
 	//Methods
 	//Read
 	readText(text, tag) {
@@ -14,7 +17,8 @@ module.exports = {
 		const currentTitle = await I.grabTitle();
 		assert.equal(expectedTitle, currentTitle);
 	},
-	assertLogo() {
-		I.see(this.elements.logo);
+	async assertLogo() {
+		I.seeElement(this.elements.logo);
+		I.seeVisualDiffForElement(this.elements.logo,"testImage.png", {prepareBaseImage: false, tolerance: 3});		
 	},
 }
