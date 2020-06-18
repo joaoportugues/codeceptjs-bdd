@@ -6,14 +6,47 @@
 
 OS X & Linux:
 
+Codeceptjs and Puppeteer
+
 ```sh
 npm install codeceptjs puppeteer --save-dev
 
 ```
 
+Visual testing
+
 ```sh
 npm install codeceptjs-resemblehelper --save
 ```
+
+Reports
+
+```
+npm install -g allure-commandline --save-dev
+```
+
+## Usage example
+
+To run:
+from root folder of the project:
+```sh
+npx codeceptjs run
+```
+and
+```sh
+allure serve reports
+```
+to get the testing report which is enabled by default
+
+
+You can use tags as well:
+```
+npx codeceptjs run --grep "@REQ-UI-01"
+```
+You can run a specific feature file by its filename or by grepping by name or tag.
+
+
+## Detailed project creation and helper tools
 
 ```sh
 mkdir your_dir_name
@@ -32,9 +65,7 @@ Configure website undertest in the file condecept.conf.js
 npx codeceptjs gherkin:init
 ```
 
-## Usage example
-
-Write Gherkin scenarios in features/basic.feature
+Write Gherkin scenarios in features/your_feature.feature
 
 And generate the respective steps using from the project root folder:
 
@@ -47,23 +78,4 @@ Generate sample page object file
 npx codeceptjs gpo
 ```
 
-To run:
-To see not only the business steps but the actual performed steps use the --debug flag:
-```sh
-npx codeceptjs run --steps
-```
-
-By using the `debug` flag you can see the execution of step definitions and it is very useful for debugging purposes.
-```sh
-npx codeceptjs run --debug
-```
-
-To run only features use --features option:
-```sh
-npx codeceptjs run --features
-```
-You can use tags as well and combine with --steps, --debug or add --verbose as well
-```
-npx codeceptjs run --grep "@REQ-UI-01"
-```
-You can run a specific feature file by its filename or by grepping by name or tag.
+Happy testing!!!

@@ -3,7 +3,7 @@ exports.config = {
   helpers: {
     Puppeteer: {
       url: 'http://uitest.duodecadits.com',
-      show: true,
+      show: false,
       windowSize: '1200x900'
     },
   "HTTP" : {
@@ -21,7 +21,11 @@ exports.config = {
     I: './steps_file.js',
     Page: './pages/*.js'
   },
-  mocha: {},
+    "mocha": {
+    "reporterOptions": {
+        "reportDir": "output"
+    }
+  },
   bootstrap: null,
   teardown: null,
   hooks: [],
@@ -35,6 +39,10 @@ exports.config = {
     },
     retryFailedStep: {
       enabled: false
+    },
+    allure: {
+      enabled: true,
+      outputDir: "./reports"
     }
   },
   tests: './*_test.js',
