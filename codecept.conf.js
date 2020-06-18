@@ -6,10 +6,6 @@ exports.config = {
       show: false,
       windowSize: '1200x900'
     },
-  "HTTP" : {
-       "require": "codeceptjs-http",
-       "endpoint": "http://localhost:8080"
-     },
   "ResembleHelper" : {
        "require": "codeceptjs-resemblehelper",
        "screenshotFolder" : "./screenshots/",

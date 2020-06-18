@@ -1,6 +1,13 @@
 # Codeceptjs Testing Framework
 > Simple tests in codeceptj using BDD
 
+```sh
+npm -v
+6.14.4
+
+node -v
+v12.18.0
+```
 
 ## Installation
 
