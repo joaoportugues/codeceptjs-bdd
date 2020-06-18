@@ -4,42 +4,18 @@ const assert = require('assert');
 
 module.exports = {
 	elements : {
-		form: 'Form',
-		title: ('UI Testing','a'),
-		formTitle: ('Simple Form Submission', 'h1'),
-		logo: '//*[@id="dh_logo"]',
 		nameField: 'myName',
-		//or nameField: '//*[@id="hello-input"]'
+		//or xpath nameField: '//*[@id="hello-input"]'
 		okBtn: 'Go!',
-		aciveTab: '//li[contains(@class, "active") and ./a/text()="Form"]',
+		helloMsg: '//*[@id="hello-text"]'
 	},
-
-	//other vars
-	name: 'Justin Time',
 
 	//Methods
-	//Read
-	readTitle(title) {
-		I.see(this.elements.title);
-	},
-	readFormTitle(formTitle) {
-		I.see(this.elements.formTitle);
-	},
-
 	//Actions
-	clickForm() {
-		I.click(this.elements.form);
-	},
-	writeName(name) {
-		I.fillField(this.elements.nameField, this.name);
-	},
-
-	//Asserts
-	assertTabActive (){
-		I.seeElement(this.elements.aciveTab);
-
-	},
-	assertName(name){
-		I.seeInField(this.elements.nameField, this.name);
+	writeNameAndSubmit(value) {
+		I.fillField(this.elements.nameField, value);
+		//Assert name is writen 
+		I.seeInField(this.elements.nameField, value);
+		I.click(this.elements.okBtn);
 	}
 }

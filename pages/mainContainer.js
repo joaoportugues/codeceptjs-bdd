@@ -1,6 +1,7 @@
 const { I } = inject();
 const assert = require('assert');
 
+//this is a page fragment, just the main container
 module.exports = {
 	//Methods
 	//Read

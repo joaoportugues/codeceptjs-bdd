@@ -66,5 +66,8 @@ To run only features use --features option:
 ```sh
 npx codeceptjs run --features
 ```
-
+You can use tags as well and combine with --steps, --debug or add --verbose as well
+```
+npx codeceptjs run --grep "@REQ-UI-01"
+```
 You can run a specific feature file by its filename or by grepping by name or tag.

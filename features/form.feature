@@ -6,7 +6,21 @@ Feature: form functionalities
     Background:
       Given the user has browsed to the homepage
       Then user navigates to "Form"
-
-    Scenario: check that landing page is correct
+      
+	@REQ-UI-01 @REQ-UI-02 @REQ-UI-05 @REQ-UI-06 @REQ-UI-11 @REQ-UI-12
+    Scenario Outline: check that landing page is correct
       Then user reads title "UI Testing Site"
       Then user sees "Form" button is active
+      Then user sees company logo
+      When user types "<value>" and click submit
+      Then user has greeting "<result>"
+      Then user reads title "UI Testing Site"
+      Then user sees company logo
+      
+	  Examples:
+      |value   |result         |
+      |John    |Hello John!    |
+      |Sophia  |Hello Sophia!  |
+      |Charlie |Hello Charlie! |
+      |Emily   |Hello Emily!   |
+

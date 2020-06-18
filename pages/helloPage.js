@@ -8,17 +8,9 @@ module.exports = {
 		logo: '//*[@id="dh_logo"]',
 	},
 
-	//Methods
-	//Read
-	readMsg(helloMsg) {
-		I.see(this.elements.helloMsg);
-	},
-	readName(helloMsg) {
-		const helloName = I.grabTextFrom(helloMsg);
-	},
-
-	//Actions
-	clickHome() {
-
+	//Assert
+	async assertWelcome(result) {
+		const currentText = await I.grabTextFrom(this.elements.helloMsg);
+		assert.equal(currentText, result);
 	}
 }
