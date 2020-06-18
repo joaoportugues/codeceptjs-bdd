@@ -21,8 +21,13 @@ npm install codeceptjs-resemblehelper --save
 
 Reports
 
-```
+```sh
 npm install -g allure-commandline --save-dev
+```
+
+clone this project and from the terminal
+```sh
+cd codeceptjs-bdd
 ```
 
 ## Usage example
@@ -40,11 +45,21 @@ to get the testing report which is enabled by default
 
 
 You can use tags as well:
-```
+```sh
 npx codeceptjs run --grep "@REQ-UI-01"
 ```
 You can run a specific feature file by its filename or by grepping by name or tag.
 
+Running headless by default - to enable visualization change condecept.conf.js
+
+```sh
+Puppeteer: {
+      url: 'http://uitest.duodecadits.com',
+      show: true,
+      windowSize: '1200x900'
+
+	  ...
+```
 
 ## Detailed project creation and helper tools
 

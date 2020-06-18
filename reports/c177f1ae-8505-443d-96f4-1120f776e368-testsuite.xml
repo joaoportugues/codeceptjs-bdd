@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1592494886690' stop='1592494897809'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1592495647094' stop='1592495658020'>
     <name>form functionalities</name>
     <title>form functionalities</title>
     <test-cases>
-        <test-case start='1592494886692' status='passed' stop='1592494890817'>
+        <test-case start='1592495647096' status='passed' stop='1592495651236'>
             <name>check that landing page is correct {"value":"John","result":"Hello John!"} @REQ-UI-01 @REQ-UI-02 @REQ-UI-05 @REQ-UI-06 @REQ-UI-11 @REQ-UI-12</name>
             <title>check that landing page is correct {"value":"John","result":"Hello John!"} @REQ-UI-01 @REQ-UI-02 @REQ-UI-05 @REQ-UI-06 @REQ-UI-11 @REQ-UI-12</title>
             <labels>
@@ -16,17 +16,17 @@
             </labels>
             <parameters/>
             <steps>
-                <step start='1592494889327' status='passed' stop='1592494889363'>
+                <step start='1592495649596' status='passed' stop='1592495649609'>
                     <name>Then user reads title "UI Testing Site" </name>
                     <title>Then user reads title "UI Testing Site" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494889327' status='passed' stop='1592494889363'>
+                        <step start='1592495649596' status='passed' stop='1592495649609'>
                             <name>Object: assertUiTesting </name>
                             <title>Object: assertUiTesting </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494889327' status='passed' stop='1592494889353'>
+                                <step start='1592495649596' status='passed' stop='1592495649603'>
                                     <name>I grab title </name>
                                     <title>I grab title </title>
                                     <attachments/>
@@ -36,17 +36,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494889363' status='passed' stop='1592494889535'>
+                <step start='1592495649609' status='passed' stop='1592495649779'>
                     <name>Then user sees "Form" button is active </name>
                     <title>Then user sees "Form" button is active </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494889363' status='passed' stop='1592494889535'>
+                        <step start='1592495649609' status='passed' stop='1592495649779'>
                             <name>Object: assertTabActive </name>
                             <title>Object: assertTabActive </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494889363' status='passed' stop='1592494889535'>
+                                <step start='1592495649609' status='passed' stop='1592495649778'>
                                     <name>I see element "//li[contains(@class, "active") and ./a/text()="Form"]"</name>
                                     <title>I see element "//li[contains(@class, "active") and ./a/text()="Form"]"</title>
                                     <attachments/>
@@ -56,23 +56,23 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494889535' status='passed' stop='1592494890252'>
+                <step start='1592495649779' status='passed' stop='1592495650675'>
                     <name>Then user sees company logo </name>
                     <title>Then user sees company logo </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494889535' status='passed' stop='1592494890252'>
+                        <step start='1592495649779' status='passed' stop='1592495650675'>
                             <name>Object: assertLogo </name>
                             <title>Object: assertLogo </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494889535' status='passed' stop='1592494889542'>
+                                <step start='1592495649779' status='passed' stop='1592495649785'>
                                     <name>I see element "//*[@id="dh_logo"]"</name>
                                     <title>I see element "//*[@id="dh_logo"]"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494889542' status='passed' stop='1592494890251'>
+                                <step start='1592495649785' status='passed' stop='1592495650675'>
                                     <name>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</name>
                                     <title>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</title>
                                     <attachments/>
@@ -82,17 +82,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494890252' status='passed' stop='1592494890265'>
+                <step start='1592495650675' status='passed' stop='1592495650683'>
                     <name>Then user sees "1" element of type "input box" </name>
                     <title>Then user sees "1" element of type "input box" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494890252' status='passed' stop='1592494890265'>
+                        <step start='1592495650675' status='passed' stop='1592495650683'>
                             <name>Object: countElements </name>
                             <title>Object: countElements </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494890252' status='passed' stop='1592494890264'>
+                                <step start='1592495650675' status='passed' stop='1592495650681'>
                                     <name>I grab number of visible elements "//*[@type="text"]"</name>
                                     <title>I grab number of visible elements "//*[@type="text"]"</title>
                                     <attachments/>
@@ -102,17 +102,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494890265' status='passed' stop='1592494890277'>
+                <step start='1592495650683' status='passed' stop='1592495650694'>
                     <name>Then user sees "1" element of type "SUBMIT" </name>
                     <title>Then user sees "1" element of type "SUBMIT" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494890265' status='passed' stop='1592494890277'>
+                        <step start='1592495650683' status='passed' stop='1592495650694'>
                             <name>Object: countElements </name>
                             <title>Object: countElements </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494890265' status='passed' stop='1592494890272'>
+                                <step start='1592495650683' status='passed' stop='1592495650690'>
                                     <name>I grab number of visible elements "//button[@type="submit"]"</name>
                                     <title>I grab number of visible elements "//button[@type="submit"]"</title>
                                     <attachments/>
@@ -122,29 +122,29 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494890277' status='passed' stop='1592494890636'>
+                <step start='1592495650694' status='passed' stop='1592495651055'>
                     <name>When user types "John" and click submit </name>
                     <title>When user types "John" and click submit </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494890278' status='passed' stop='1592494890636'>
+                        <step start='1592495650694' status='passed' stop='1592495651055'>
                             <name>Object: writeNameAndSubmit </name>
                             <title>Object: writeNameAndSubmit </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494890278' status='passed' stop='1592494890485'>
+                                <step start='1592495650694' status='passed' stop='1592495650910'>
                                     <name>I fill field "myName", "John"</name>
                                     <title>I fill field "myName", "John"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494890485' status='passed' stop='1592494890502'>
+                                <step start='1592495650910' status='passed' stop='1592495650930'>
                                     <name>I see in field "myName", "John"</name>
                                     <title>I see in field "myName", "John"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494890502' status='passed' stop='1592494890636'>
+                                <step start='1592495650930' status='passed' stop='1592495651055'>
                                     <name>I click "Go!"</name>
                                     <title>I click "Go!"</title>
                                     <attachments/>
@@ -154,17 +154,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494890636' status='passed' stop='1592494890650'>
+                <step start='1592495651055' status='passed' stop='1592495651068'>
                     <name>Then user has greeting "Hello John!" </name>
                     <title>Then user has greeting "Hello John!" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494890637' status='passed' stop='1592494890650'>
+                        <step start='1592495651055' status='passed' stop='1592495651068'>
                             <name>Object: assertWelcome </name>
                             <title>Object: assertWelcome </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494890637' status='passed' stop='1592494890649'>
+                                <step start='1592495651055' status='passed' stop='1592495651067'>
                                     <name>I grab text from "//*[@id="hello-text"]"</name>
                                     <title>I grab text from "//*[@id="hello-text"]"</title>
                                     <attachments/>
@@ -174,17 +174,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494890650' status='passed' stop='1592494890654'>
+                <step start='1592495651068' status='passed' stop='1592495651073'>
                     <name>Then user reads title "UI Testing Site" </name>
                     <title>Then user reads title "UI Testing Site" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494890650' status='passed' stop='1592494890654'>
+                        <step start='1592495651068' status='passed' stop='1592495651073'>
                             <name>Object: assertUiTesting </name>
                             <title>Object: assertUiTesting </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494890650' status='passed' stop='1592494890652'>
+                                <step start='1592495651068' status='passed' stop='1592495651071'>
                                     <name>I grab title </name>
                                     <title>I grab title </title>
                                     <attachments/>
@@ -194,23 +194,23 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494890654' status='passed' stop='1592494890817'>
+                <step start='1592495651073' status='passed' stop='1592495651236'>
                     <name>Then user sees company logo </name>
                     <title>Then user sees company logo </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494890654' status='passed' stop='1592494890817'>
+                        <step start='1592495651073' status='passed' stop='1592495651236'>
                             <name>Object: assertLogo </name>
                             <title>Object: assertLogo </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494890654' status='passed' stop='1592494890660'>
+                                <step start='1592495651073' status='passed' stop='1592495651079'>
                                     <name>I see element "//*[@id="dh_logo"]"</name>
                                     <title>I see element "//*[@id="dh_logo"]"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494890661' status='passed' stop='1592494890816'>
+                                <step start='1592495651080' status='passed' stop='1592495651235'>
                                     <name>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</name>
                                     <title>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</title>
                                     <attachments/>
@@ -223,7 +223,7 @@
             </steps>
             <attachments/>
         </test-case>
-        <test-case start='1592494890870' status='passed' stop='1592494892993'>
+        <test-case start='1592495651303' status='passed' stop='1592495653437'>
             <name>check that landing page is correct {"value":"Sophia","result":"Hello Sophia!"} @REQ-UI-01 @REQ-UI-02 @REQ-UI-05 @REQ-UI-06 @REQ-UI-11 @REQ-UI-12</name>
             <title>check that landing page is correct {"value":"Sophia","result":"Hello Sophia!"} @REQ-UI-01 @REQ-UI-02 @REQ-UI-05 @REQ-UI-06 @REQ-UI-11 @REQ-UI-12</title>
             <labels>
@@ -236,17 +236,17 @@
             </labels>
             <parameters/>
             <steps>
-                <step start='1592494892124' status='passed' stop='1592494892138'>
+                <step start='1592495652575' status='passed' stop='1592495652612'>
                     <name>Then user reads title "UI Testing Site" </name>
                     <title>Then user reads title "UI Testing Site" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494892124' status='passed' stop='1592494892138'>
+                        <step start='1592495652575' status='passed' stop='1592495652612'>
                             <name>Object: assertUiTesting </name>
                             <title>Object: assertUiTesting </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494892124' status='passed' stop='1592494892127'>
+                                <step start='1592495652575' status='passed' stop='1592495652599'>
                                     <name>I grab title </name>
                                     <title>I grab title </title>
                                     <attachments/>
@@ -256,17 +256,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494892138' status='passed' stop='1592494892305'>
+                <step start='1592495652612' status='passed' stop='1592495652785'>
                     <name>Then user sees "Form" button is active </name>
                     <title>Then user sees "Form" button is active </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494892138' status='passed' stop='1592494892305'>
+                        <step start='1592495652612' status='passed' stop='1592495652785'>
                             <name>Object: assertTabActive </name>
                             <title>Object: assertTabActive </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494892138' status='passed' stop='1592494892305'>
+                                <step start='1592495652612' status='passed' stop='1592495652785'>
                                     <name>I see element "//li[contains(@class, "active") and ./a/text()="Form"]"</name>
                                     <title>I see element "//li[contains(@class, "active") and ./a/text()="Form"]"</title>
                                     <attachments/>
@@ -276,23 +276,23 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494892305' status='passed' stop='1592494892454'>
+                <step start='1592495652785' status='passed' stop='1592495652913'>
                     <name>Then user sees company logo </name>
                     <title>Then user sees company logo </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494892305' status='passed' stop='1592494892454'>
+                        <step start='1592495652785' status='passed' stop='1592495652913'>
                             <name>Object: assertLogo </name>
                             <title>Object: assertLogo </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494892305' status='passed' stop='1592494892312'>
+                                <step start='1592495652785' status='passed' stop='1592495652792'>
                                     <name>I see element "//*[@id="dh_logo"]"</name>
                                     <title>I see element "//*[@id="dh_logo"]"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494892312' status='passed' stop='1592494892454'>
+                                <step start='1592495652792' status='passed' stop='1592495652913'>
                                     <name>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</name>
                                     <title>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</title>
                                     <attachments/>
@@ -302,17 +302,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494892454' status='passed' stop='1592494892462'>
+                <step start='1592495652913' status='passed' stop='1592495652921'>
                     <name>Then user sees "1" element of type "input box" </name>
                     <title>Then user sees "1" element of type "input box" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494892454' status='passed' stop='1592494892462'>
+                        <step start='1592495652913' status='passed' stop='1592495652921'>
                             <name>Object: countElements </name>
                             <title>Object: countElements </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494892454' status='passed' stop='1592494892460'>
+                                <step start='1592495652913' status='passed' stop='1592495652919'>
                                     <name>I grab number of visible elements "//*[@type="text"]"</name>
                                     <title>I grab number of visible elements "//*[@type="text"]"</title>
                                     <attachments/>
@@ -322,17 +322,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494892462' status='passed' stop='1592494892470'>
+                <step start='1592495652921' status='passed' stop='1592495652929'>
                     <name>Then user sees "1" element of type "SUBMIT" </name>
                     <title>Then user sees "1" element of type "SUBMIT" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494892462' status='passed' stop='1592494892470'>
+                        <step start='1592495652921' status='passed' stop='1592495652929'>
                             <name>Object: countElements </name>
                             <title>Object: countElements </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494892462' status='passed' stop='1592494892467'>
+                                <step start='1592495652921' status='passed' stop='1592495652927'>
                                     <name>I grab number of visible elements "//button[@type="submit"]"</name>
                                     <title>I grab number of visible elements "//button[@type="submit"]"</title>
                                     <attachments/>
@@ -342,29 +342,29 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494892470' status='passed' stop='1592494892839'>
+                <step start='1592495652929' status='passed' stop='1592495653281'>
                     <name>When user types "Sophia" and click submit </name>
                     <title>When user types "Sophia" and click submit </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494892470' status='passed' stop='1592494892839'>
+                        <step start='1592495652929' status='passed' stop='1592495653281'>
                             <name>Object: writeNameAndSubmit </name>
                             <title>Object: writeNameAndSubmit </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494892470' status='passed' stop='1592494892695'>
+                                <step start='1592495652929' status='passed' stop='1592495653146'>
                                     <name>I fill field "myName", "Sophia"</name>
                                     <title>I fill field "myName", "Sophia"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494892695' status='passed' stop='1592494892721'>
+                                <step start='1592495653146' status='passed' stop='1592495653162'>
                                     <name>I see in field "myName", "Sophia"</name>
                                     <title>I see in field "myName", "Sophia"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494892721' status='passed' stop='1592494892839'>
+                                <step start='1592495653162' status='passed' stop='1592495653280'>
                                     <name>I click "Go!"</name>
                                     <title>I click "Go!"</title>
                                     <attachments/>
@@ -374,17 +374,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494892839' status='passed' stop='1592494892848'>
+                <step start='1592495653281' status='passed' stop='1592495653288'>
                     <name>Then user has greeting "Hello Sophia!" </name>
                     <title>Then user has greeting "Hello Sophia!" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494892839' status='passed' stop='1592494892848'>
+                        <step start='1592495653281' status='passed' stop='1592495653288'>
                             <name>Object: assertWelcome </name>
                             <title>Object: assertWelcome </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494892839' status='passed' stop='1592494892847'>
+                                <step start='1592495653281' status='passed' stop='1592495653288'>
                                     <name>I grab text from "//*[@id="hello-text"]"</name>
                                     <title>I grab text from "//*[@id="hello-text"]"</title>
                                     <attachments/>
@@ -394,17 +394,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494892848' status='passed' stop='1592494892851'>
+                <step start='1592495653288' status='passed' stop='1592495653291'>
                     <name>Then user reads title "UI Testing Site" </name>
                     <title>Then user reads title "UI Testing Site" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494892848' status='passed' stop='1592494892851'>
+                        <step start='1592495653288' status='passed' stop='1592495653291'>
                             <name>Object: assertUiTesting </name>
                             <title>Object: assertUiTesting </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494892848' status='passed' stop='1592494892850'>
+                                <step start='1592495653288' status='passed' stop='1592495653290'>
                                     <name>I grab title </name>
                                     <title>I grab title </title>
                                     <attachments/>
@@ -414,23 +414,23 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494892851' status='passed' stop='1592494892993'>
+                <step start='1592495653291' status='passed' stop='1592495653437'>
                     <name>Then user sees company logo </name>
                     <title>Then user sees company logo </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494892851' status='passed' stop='1592494892993'>
+                        <step start='1592495653291' status='passed' stop='1592495653437'>
                             <name>Object: assertLogo </name>
                             <title>Object: assertLogo </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494892851' status='passed' stop='1592494892856'>
+                                <step start='1592495653291' status='passed' stop='1592495653295'>
                                     <name>I see element "//*[@id="dh_logo"]"</name>
                                     <title>I see element "//*[@id="dh_logo"]"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494892856' status='passed' stop='1592494892993'>
+                                <step start='1592495653296' status='passed' stop='1592495653437'>
                                     <name>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</name>
                                     <title>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</title>
                                     <attachments/>
@@ -443,7 +443,7 @@
             </steps>
             <attachments/>
         </test-case>
-        <test-case start='1592494893027' status='passed' stop='1592494895555'>
+        <test-case start='1592495653476' status='passed' stop='1592495655860'>
             <name>check that landing page is correct {"value":"Charlie","result":"Hello Charlie!"} @REQ-UI-01 @REQ-UI-02 @REQ-UI-05 @REQ-UI-06 @REQ-UI-11 @REQ-UI-12</name>
             <title>check that landing page is correct {"value":"Charlie","result":"Hello Charlie!"} @REQ-UI-01 @REQ-UI-02 @REQ-UI-05 @REQ-UI-06 @REQ-UI-11 @REQ-UI-12</title>
             <labels>
@@ -456,17 +456,17 @@
             </labels>
             <parameters/>
             <steps>
-                <step start='1592494894367' status='passed' stop='1592494894475'>
+                <step start='1592495654858' status='passed' stop='1592495654893'>
                     <name>Then user reads title "UI Testing Site" </name>
                     <title>Then user reads title "UI Testing Site" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494894367' status='passed' stop='1592494894475'>
+                        <step start='1592495654858' status='passed' stop='1592495654893'>
                             <name>Object: assertUiTesting </name>
                             <title>Object: assertUiTesting </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494894367' status='passed' stop='1592494894469'>
+                                <step start='1592495654858' status='passed' stop='1592495654889'>
                                     <name>I grab title </name>
                                     <title>I grab title </title>
                                     <attachments/>
@@ -476,17 +476,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494894475' status='passed' stop='1592494894687'>
+                <step start='1592495654893' status='passed' stop='1592495655053'>
                     <name>Then user sees "Form" button is active </name>
                     <title>Then user sees "Form" button is active </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494894475' status='passed' stop='1592494894687'>
+                        <step start='1592495654893' status='passed' stop='1592495655053'>
                             <name>Object: assertTabActive </name>
                             <title>Object: assertTabActive </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494894475' status='passed' stop='1592494894687'>
+                                <step start='1592495654893' status='passed' stop='1592495655053'>
                                     <name>I see element "//li[contains(@class, "active") and ./a/text()="Form"]"</name>
                                     <title>I see element "//li[contains(@class, "active") and ./a/text()="Form"]"</title>
                                     <attachments/>
@@ -496,23 +496,23 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494894687' status='passed' stop='1592494894906'>
+                <step start='1592495655053' status='passed' stop='1592495655217'>
                     <name>Then user sees company logo </name>
                     <title>Then user sees company logo </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494894687' status='passed' stop='1592494894906'>
+                        <step start='1592495655053' status='passed' stop='1592495655217'>
                             <name>Object: assertLogo </name>
                             <title>Object: assertLogo </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494894687' status='passed' stop='1592494894701'>
+                                <step start='1592495655053' status='passed' stop='1592495655059'>
                                     <name>I see element "//*[@id="dh_logo"]"</name>
                                     <title>I see element "//*[@id="dh_logo"]"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494894701' status='passed' stop='1592494894906'>
+                                <step start='1592495655060' status='passed' stop='1592495655217'>
                                     <name>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</name>
                                     <title>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</title>
                                     <attachments/>
@@ -522,17 +522,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494894906' status='passed' stop='1592494894936'>
+                <step start='1592495655217' status='passed' stop='1592495655224'>
                     <name>Then user sees "1" element of type "input box" </name>
                     <title>Then user sees "1" element of type "input box" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494894906' status='passed' stop='1592494894936'>
+                        <step start='1592495655217' status='passed' stop='1592495655224'>
                             <name>Object: countElements </name>
                             <title>Object: countElements </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494894906' status='passed' stop='1592494894933'>
+                                <step start='1592495655217' status='passed' stop='1592495655223'>
                                     <name>I grab number of visible elements "//*[@type="text"]"</name>
                                     <title>I grab number of visible elements "//*[@type="text"]"</title>
                                     <attachments/>
@@ -542,17 +542,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494894936' status='passed' stop='1592494894956'>
+                <step start='1592495655224' status='passed' stop='1592495655232'>
                     <name>Then user sees "1" element of type "SUBMIT" </name>
                     <title>Then user sees "1" element of type "SUBMIT" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494894936' status='passed' stop='1592494894956'>
+                        <step start='1592495655224' status='passed' stop='1592495655232'>
                             <name>Object: countElements </name>
                             <title>Object: countElements </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494894936' status='passed' stop='1592494894948'>
+                                <step start='1592495655224' status='passed' stop='1592495655230'>
                                     <name>I grab number of visible elements "//button[@type="submit"]"</name>
                                     <title>I grab number of visible elements "//button[@type="submit"]"</title>
                                     <attachments/>
@@ -562,29 +562,29 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494894956' status='passed' stop='1592494895379'>
+                <step start='1592495655232' status='passed' stop='1592495655666'>
                     <name>When user types "Charlie" and click submit </name>
                     <title>When user types "Charlie" and click submit </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494894956' status='passed' stop='1592494895379'>
+                        <step start='1592495655232' status='passed' stop='1592495655666'>
                             <name>Object: writeNameAndSubmit </name>
                             <title>Object: writeNameAndSubmit </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494894956' status='passed' stop='1592494895224'>
+                                <step start='1592495655232' status='passed' stop='1592495655531'>
                                     <name>I fill field "myName", "Charlie"</name>
                                     <title>I fill field "myName", "Charlie"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494895225' status='passed' stop='1592494895248'>
+                                <step start='1592495655532' status='passed' stop='1592495655549'>
                                     <name>I see in field "myName", "Charlie"</name>
                                     <title>I see in field "myName", "Charlie"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494895248' status='passed' stop='1592494895379'>
+                                <step start='1592495655549' status='passed' stop='1592495655666'>
                                     <name>I click "Go!"</name>
                                     <title>I click "Go!"</title>
                                     <attachments/>
@@ -594,17 +594,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494895379' status='passed' stop='1592494895393'>
+                <step start='1592495655666' status='passed' stop='1592495655682'>
                     <name>Then user has greeting "Hello Charlie!" </name>
                     <title>Then user has greeting "Hello Charlie!" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494895379' status='passed' stop='1592494895393'>
+                        <step start='1592495655666' status='passed' stop='1592495655682'>
                             <name>Object: assertWelcome </name>
                             <title>Object: assertWelcome </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494895379' status='passed' stop='1592494895392'>
+                                <step start='1592495655666' status='passed' stop='1592495655676'>
                                     <name>I grab text from "//*[@id="hello-text"]"</name>
                                     <title>I grab text from "//*[@id="hello-text"]"</title>
                                     <attachments/>
@@ -614,17 +614,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494895393' status='passed' stop='1592494895397'>
+                <step start='1592495655682' status='passed' stop='1592495655688'>
                     <name>Then user reads title "UI Testing Site" </name>
                     <title>Then user reads title "UI Testing Site" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494895393' status='passed' stop='1592494895397'>
+                        <step start='1592495655682' status='passed' stop='1592495655688'>
                             <name>Object: assertUiTesting </name>
                             <title>Object: assertUiTesting </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494895393' status='passed' stop='1592494895396'>
+                                <step start='1592495655682' status='passed' stop='1592495655687'>
                                     <name>I grab title </name>
                                     <title>I grab title </title>
                                     <attachments/>
@@ -634,23 +634,23 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494895397' status='passed' stop='1592494895555'>
+                <step start='1592495655688' status='passed' stop='1592495655860'>
                     <name>Then user sees company logo </name>
                     <title>Then user sees company logo </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494895397' status='passed' stop='1592494895555'>
+                        <step start='1592495655688' status='passed' stop='1592495655860'>
                             <name>Object: assertLogo </name>
                             <title>Object: assertLogo </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494895397' status='passed' stop='1592494895403'>
+                                <step start='1592495655688' status='passed' stop='1592495655694'>
                                     <name>I see element "//*[@id="dh_logo"]"</name>
                                     <title>I see element "//*[@id="dh_logo"]"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494895403' status='passed' stop='1592494895554'>
+                                <step start='1592495655694' status='passed' stop='1592495655860'>
                                     <name>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</name>
                                     <title>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</title>
                                     <attachments/>
@@ -663,7 +663,7 @@
             </steps>
             <attachments/>
         </test-case>
-        <test-case start='1592494895595' status='passed' stop='1592494897759'>
+        <test-case start='1592495655914' status='passed' stop='1592495657972'>
             <name>check that landing page is correct {"value":"Emily","result":"Hello Emily!"} @REQ-UI-01 @REQ-UI-02 @REQ-UI-05 @REQ-UI-06 @REQ-UI-11 @REQ-UI-12</name>
             <title>check that landing page is correct {"value":"Emily","result":"Hello Emily!"} @REQ-UI-01 @REQ-UI-02 @REQ-UI-05 @REQ-UI-06 @REQ-UI-11 @REQ-UI-12</title>
             <labels>
@@ -676,17 +676,17 @@
             </labels>
             <parameters/>
             <steps>
-                <step start='1592494896859' status='passed' stop='1592494896885'>
+                <step start='1592495657232' status='passed' stop='1592495657238'>
                     <name>Then user reads title "UI Testing Site" </name>
                     <title>Then user reads title "UI Testing Site" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494896859' status='passed' stop='1592494896885'>
+                        <step start='1592495657232' status='passed' stop='1592495657238'>
                             <name>Object: assertUiTesting </name>
                             <title>Object: assertUiTesting </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494896859' status='passed' stop='1592494896878'>
+                                <step start='1592495657232' status='passed' stop='1592495657234'>
                                     <name>I grab title </name>
                                     <title>I grab title </title>
                                     <attachments/>
@@ -696,17 +696,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494896885' status='passed' stop='1592494897055'>
+                <step start='1592495657238' status='passed' stop='1592495657244'>
                     <name>Then user sees "Form" button is active </name>
                     <title>Then user sees "Form" button is active </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494896885' status='passed' stop='1592494897055'>
+                        <step start='1592495657238' status='passed' stop='1592495657244'>
                             <name>Object: assertTabActive </name>
                             <title>Object: assertTabActive </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494896885' status='passed' stop='1592494897055'>
+                                <step start='1592495657238' status='passed' stop='1592495657244'>
                                     <name>I see element "//li[contains(@class, "active") and ./a/text()="Form"]"</name>
                                     <title>I see element "//li[contains(@class, "active") and ./a/text()="Form"]"</title>
                                     <attachments/>
@@ -716,23 +716,23 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494897055' status='passed' stop='1592494897214'>
+                <step start='1592495657244' status='passed' stop='1592495657420'>
                     <name>Then user sees company logo </name>
                     <title>Then user sees company logo </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494897055' status='passed' stop='1592494897214'>
+                        <step start='1592495657244' status='passed' stop='1592495657420'>
                             <name>Object: assertLogo </name>
                             <title>Object: assertLogo </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494897055' status='passed' stop='1592494897062'>
+                                <step start='1592495657244' status='passed' stop='1592495657249'>
                                     <name>I see element "//*[@id="dh_logo"]"</name>
                                     <title>I see element "//*[@id="dh_logo"]"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494897062' status='passed' stop='1592494897214'>
+                                <step start='1592495657249' status='passed' stop='1592495657420'>
                                     <name>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</name>
                                     <title>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</title>
                                     <attachments/>
@@ -742,17 +742,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494897214' status='passed' stop='1592494897223'>
+                <step start='1592495657420' status='passed' stop='1592495657428'>
                     <name>Then user sees "1" element of type "input box" </name>
                     <title>Then user sees "1" element of type "input box" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494897214' status='passed' stop='1592494897223'>
+                        <step start='1592495657420' status='passed' stop='1592495657428'>
                             <name>Object: countElements </name>
                             <title>Object: countElements </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494897214' status='passed' stop='1592494897221'>
+                                <step start='1592495657420' status='passed' stop='1592495657426'>
                                     <name>I grab number of visible elements "//*[@type="text"]"</name>
                                     <title>I grab number of visible elements "//*[@type="text"]"</title>
                                     <attachments/>
@@ -762,17 +762,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494897223' status='passed' stop='1592494897235'>
+                <step start='1592495657428' status='passed' stop='1592495657439'>
                     <name>Then user sees "1" element of type "SUBMIT" </name>
                     <title>Then user sees "1" element of type "SUBMIT" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494897223' status='passed' stop='1592494897235'>
+                        <step start='1592495657428' status='passed' stop='1592495657439'>
                             <name>Object: countElements </name>
                             <title>Object: countElements </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494897223' status='passed' stop='1592494897230'>
+                                <step start='1592495657428' status='passed' stop='1592495657434'>
                                     <name>I grab number of visible elements "//button[@type="submit"]"</name>
                                     <title>I grab number of visible elements "//button[@type="submit"]"</title>
                                     <attachments/>
@@ -782,29 +782,29 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494897235' status='passed' stop='1592494897595'>
+                <step start='1592495657439' status='passed' stop='1592495657804'>
                     <name>When user types "Emily" and click submit </name>
                     <title>When user types "Emily" and click submit </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494897235' status='passed' stop='1592494897595'>
+                        <step start='1592495657439' status='passed' stop='1592495657804'>
                             <name>Object: writeNameAndSubmit </name>
                             <title>Object: writeNameAndSubmit </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494897235' status='passed' stop='1592494897453'>
+                                <step start='1592495657439' status='passed' stop='1592495657660'>
                                     <name>I fill field "myName", "Emily"</name>
                                     <title>I fill field "myName", "Emily"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494897453' status='passed' stop='1592494897470'>
+                                <step start='1592495657660' status='passed' stop='1592495657677'>
                                     <name>I see in field "myName", "Emily"</name>
                                     <title>I see in field "myName", "Emily"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494897470' status='passed' stop='1592494897594'>
+                                <step start='1592495657677' status='passed' stop='1592495657804'>
                                     <name>I click "Go!"</name>
                                     <title>I click "Go!"</title>
                                     <attachments/>
@@ -814,17 +814,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494897595' status='passed' stop='1592494897606'>
+                <step start='1592495657804' status='passed' stop='1592495657815'>
                     <name>Then user has greeting "Hello Emily!" </name>
                     <title>Then user has greeting "Hello Emily!" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494897595' status='passed' stop='1592494897606'>
+                        <step start='1592495657804' status='passed' stop='1592495657815'>
                             <name>Object: assertWelcome </name>
                             <title>Object: assertWelcome </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494897595' status='passed' stop='1592494897605'>
+                                <step start='1592495657804' status='passed' stop='1592495657814'>
                                     <name>I grab text from "//*[@id="hello-text"]"</name>
                                     <title>I grab text from "//*[@id="hello-text"]"</title>
                                     <attachments/>
@@ -834,17 +834,17 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494897606' status='passed' stop='1592494897610'>
+                <step start='1592495657815' status='passed' stop='1592495657818'>
                     <name>Then user reads title "UI Testing Site" </name>
                     <title>Then user reads title "UI Testing Site" </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494897606' status='passed' stop='1592494897610'>
+                        <step start='1592495657815' status='passed' stop='1592495657818'>
                             <name>Object: assertUiTesting </name>
                             <title>Object: assertUiTesting </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494897606' status='passed' stop='1592494897609'>
+                                <step start='1592495657815' status='passed' stop='1592495657817'>
                                     <name>I grab title </name>
                                     <title>I grab title </title>
                                     <attachments/>
@@ -854,23 +854,23 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1592494897610' status='passed' stop='1592494897759'>
+                <step start='1592495657818' status='passed' stop='1592495657972'>
                     <name>Then user sees company logo </name>
                     <title>Then user sees company logo </title>
                     <attachments/>
                     <steps>
-                        <step start='1592494897610' status='passed' stop='1592494897759'>
+                        <step start='1592495657818' status='passed' stop='1592495657972'>
                             <name>Object: assertLogo </name>
                             <title>Object: assertLogo </title>
                             <attachments/>
                             <steps>
-                                <step start='1592494897610' status='passed' stop='1592494897615'>
+                                <step start='1592495657818' status='passed' stop='1592495657823'>
                                     <name>I see element "//*[@id="dh_logo"]"</name>
                                     <title>I see element "//*[@id="dh_logo"]"</title>
                                     <attachments/>
                                     <steps/>
                                 </step>
-                                <step start='1592494897615' status='passed' stop='1592494897759'>
+                                <step start='1592495657823' status='passed' stop='1592495657972'>
                                     <name>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</name>
                                     <title>I see visual diff for element "//*[@id="dh_logo"]", "testImage.png", {"prepareBaseImage":false,"tolerance":3}</title>
                                     <attachments/>
