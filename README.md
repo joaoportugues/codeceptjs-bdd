@@ -18,6 +18,12 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
 
 OS X, Linux or Windows with npm:
 
+clone this project and from the terminal and navigate to folder
+```sh
+git clone https://github.com/joaoportugues/codeceptjs-bdd.git
+cd codeceptjs-bdd
+```
+
 Codeceptjs and Puppeteer
 
 ```sh
@@ -35,12 +41,6 @@ Reports
 
 ```sh
 npm install -g allure-commandline --save-dev
-```
-
-clone this project and from the terminal and navigate to folder
-```sh
-git clone https://github.com/joaoportugues/codeceptjs-bdd.git
-cd codeceptjs-bdd
 ```
 
 ## Usage example
