@@ -1,14 +1,12 @@
 const { I } = inject();
 const assert = require('assert');
 
-
 module.exports = {
 	elements : {
 		nameField: 'myName',
 		//or xpath nameField: '//*[@id="hello-input"]'
 		okBtn: 'Go!',
 		helloMsg: '//*[@id="hello-text"]',
-
 		textBox: '//*[@type="text"]',
 		submitButton: '//button[@type="submit"]'
 	},
@@ -17,32 +15,20 @@ module.exports = {
 	//Actions
 	async countElements(amount, type) {
 		var count = 0;
-		//handling some different requests
+		//can be used to handle different spellings too
 		switch (type.toLowerCase()) {
-			case 'input box': 
-				count = await I.grabNumberOfVisibleElements(this.elements.textBox);
+			case 'input box': count = await I.grabNumberOfVisibleElements(this.elements.textBox);
 				break;
-			case 'input': 
-				count = await I.grabNumberOfVisibleElements(this.elements.textBox);
-				break;
-			case 'textbox': 
-				count = await I.grabNumberOfVisibleElements(this.elements.textBox);
-				break;
-			case 'text box': 
-				count = await I.grabNumberOfVisibleElements(this.elements.textBox);
-				break;
-			case 'submit': 
-				count = await I.grabNumberOfVisibleElements(this.elements.submitButton);
+			case 'submit': count = await I.grabNumberOfVisibleElements(this.elements.submitButton);
 				break;
 		}
-
 		assert.equal(amount, count);
 	},
 
-	writeNameAndSubmit(value) {
-		I.fillField(this.elements.nameField, value);
+	writeNameAndSubmit(name) {
+		I.fillField(this.elements.nameField, name);
 		//Assert name is writen 
-		I.seeInField(this.elements.nameField, value);
+		I.seeInField(this.elements.nameField, name);
 		I.click(this.elements.okBtn);
 	},
 

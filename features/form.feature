@@ -8,7 +8,7 @@ Feature: form functionalities
       Then user navigates to "Form"
       
 	@REQ-UI-01 @REQ-UI-02 @REQ-UI-05 @REQ-UI-06 @REQ-UI-11 @REQ-UI-12
-    Scenario Outline: check that landing page is correct
+    Scenario Outline: check that user can submit and read data in the Form page
       Then user reads title "UI Testing Site"
       Then user sees "Form" button is active
       Then user sees company logo

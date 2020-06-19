@@ -7,11 +7,16 @@ npm -v
 
 node -v
 v12.18.0
+
+java -version
+java version "1.8.0_251"
+Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
 ```
 
 ## Installation
 
-OS X & Linux:
+OS X, Linux or Windows with npm:
 
 Codeceptjs and Puppeteer
 
@@ -32,30 +37,32 @@ Reports
 npm install -g allure-commandline --save-dev
 ```
 
-clone this project and from the terminal
+clone this project and from the terminal and navigate to folder
 ```sh
+git clone https://github.com/joaoportugues/codeceptjs-bdd.git
 cd codeceptjs-bdd
 ```
 
 ## Usage example
 
 To run:
-from root folder of the project:
+from root folder of the project (--steps --features --debug --verbose are available for different levels of logging):
 ```sh
 npx codeceptjs run
 ```
-and
+or
+```sh
+npx codeceptjs run --debug
+```
+and to get the testing reports
 ```sh
 allure serve reports
 ```
-to get the testing report which is enabled by default
-
 
 You can use tags as well:
 ```sh
 npx codeceptjs run --grep "@REQ-UI-01"
 ```
-You can run a specific feature file by its filename or by grepping by name or tag.
 
 Running headless by default - to enable visualization change condecept.conf.js
 
