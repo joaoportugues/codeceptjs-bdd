@@ -6,12 +6,12 @@ exports.config = {
       show: false,
       windowSize: '1200x900'
     },
-  "ResembleHelper" : {
+ /* "ResembleHelper" : {
        "require": "codeceptjs-resemblehelper",
        "screenshotFolder" : "./screenshots/",
        "baseFolder": "./screenshots/base/",
        "diffFolder": "./screenshots/diff/"
-     }
+     }*/
   },
   include: {
     I: './steps_file.js',
