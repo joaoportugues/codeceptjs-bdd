@@ -20,15 +20,23 @@ OS X, Linux or Windows with npm:
 
 clone this project and from the terminal and navigate to folder
 ```sh
-git clone https://github.com/joaoportugues/codeceptjs-bdd.git
+git clone -b sandbox https://github.com/joaoportugues/codeceptjs-bdd.git
 cd codeceptjs-bdd
 ```
 
-Codeceptjs and Puppeteer
+Codeceptjs
 
 ```sh
-npm install codeceptjs puppeteer --save-dev
+npm install codeceptjs --save
 
+```
+
+Selenium stand alone
+
+```
+npm install -g selenium-standalone
+
+selenium-standalone install
 ```
 
 Visual testing
@@ -44,6 +52,11 @@ npm install -g allure-commandline --save-dev
 ```
 
 ## Usage example
+Launch selenium server
+
+```
+selenium-standalone start
+```
 
 To run:
 from root folder of the project (--steps --features --debug --verbose are available for different levels of logging):

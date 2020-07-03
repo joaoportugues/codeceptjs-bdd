@@ -35,6 +35,6 @@ module.exports = {
 
 	async assertLogo() {
 		I.seeElement(this.elements.logo);
-		//I.seeVisualDiffForElement(this.elements.logo, "testImage.png", {prepareBaseImage: false, tolerance: 3});
+		I.seeVisualDiffForElement(this.elements.logo, "testImage.png", {prepareBaseImage: false, tolerance: 3});
 	},
 }
